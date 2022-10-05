@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-image: url(/img/background2.jpg);
+  background-repeat: no-repeat;
+}
+.logo {
+  width: 30%;
+  display: inline-block;
+}
+.logo img {
+  width: 100%;
+  border-radius: 50px;
+}
+nav {
+  background-color: grey;
+  width: 69%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2rem;
+}
+nav li {
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 3px;
+  background-color: rgba(100, 19, 107, 0.863);
+  
+}
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+p {
+  text-indent: 5%;
+}
+img {
+  width: 100%;
+  margin: 10px auto;
+}
+.container {
+  display: inline-block;
+  height: 500px;
+  width: 45%;
+  border: 10px solid rgba(8, 43, 109, 0.76);
+  overflow: scroll;
+  border-radius: 10px 20px;
+  background-color: grey;
+  background-image: url(/img/smallbck.jpg);
+  background-repeat: no repeat;
+  background-size: 500px;
+}
+.bigcontainer {
+  width: 80%;
+  margin: 30px auto;
+}
+h1{
+    text-align: center;
+    font-size: 7Rem;
+    color: rgb(16, 204, 157);
+}
+.final {
+    font-size: 2Rem;
+    color: antiquewhite;
+}
+.footer {
+    font-size: 2em;
+    color: aquamarine;
+}
+footer {
+    border: 5px solid ;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
